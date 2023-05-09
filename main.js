@@ -2,8 +2,8 @@
 const myImage = document.querySelector("img");
 let imgIdx = 1;
 images = [
-     '/test-site/images/img3.jpg',
-     '/test-site/images/img1.jpg'
+     'img3.jpg',
+     'img1.jpg'
 ];
 function changeImage(){
     if(imgIdx >= images.length){
@@ -17,11 +17,11 @@ function changeImage(){
 const myImage1 = document.querySelector("img");
 myImage1.onclick = () =>{
 const mySrc = myImage1.getAttribute("src");
-if(mySrc === "/test-site/images/img3.jpg"){
-    myImage1.setAttribute("src", "/test-site/images/img1.jpg");
+if(mySrc === "img3.jpg"){
+    myImage1.setAttribute("src", "img1.jpg");
 }
 else{
-myImage1.setAttribute("src", "/test-site/images/img3.jpg")
+myImage1.setAttribute("src", "img3.jpg")
 }};
 
 //
